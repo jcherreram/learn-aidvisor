@@ -23,25 +23,18 @@ Learn AIdvisor is a Chrome extension that acts as a personal learning assistant.
 ## How It Works: The Workflow
 
 1.  **Select Text**: Highlight a piece of text (at least 20 characters) on any webpage.
-    !([https://i.imgur.com/J3Z3CjY.png](https://i.imgur.com/J3Z3CjY.png))
 
 2.  **Familiarity Assessment**: Answer a few simple yes/no questions about key concepts found in the text.
-    !([https://i.imgur.com/Gj3fC5W.png](https://i.imgur.com/Gj3fC5W.png))
 
 3.  **Get Your Effort Level**: The extension displays the final Attentional Effort Level.
-    !([https://i.imgur.com/5O4RjXy.png](https://i.imgur.com/5O4RjXy.png))
 
 4.  **Use Learning Tools**: Based on the result, you can simplify the text or generate a comprehension test.
-    !([https://i.imgur.com/k6l9h4G.png](https://i.imgur.com/k6l9h4G.png))
 
 5.  **Take the Test**: Answer the generated questions and rate how difficult it was to recall each answer.
-    !([https://i.imgur.com/Q2h3j9f.png](https://i.imgur.com/Q2h3j9f.png))
 
 6.  **Generate Study Guide**: After the test, create your personalized study guide.
-    !([https://i.imgur.com/00lO5hG.png](https://i.imgur.com/00lO5hG.png))
 
 7.  **Review the Glossary**: The final view provides a focused glossary of the concepts you struggled with, helping you study more effectively.
-    !(httpss://[i.imgur.com/gO0a9kS.png](https://i.imgur.com/gO0a9kS.png))
 
 ---
 
