@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Learn AIdvisor",
+  "version": "1.0",
+  "description": "A learning tool that calculates the Attentional Effort (NEA) based on user familiarity.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Learn AIdvisor"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn AIdvisor - User Guide</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #004d99;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        .step {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 4px solid #004d99;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .step strong {
+            color: #004d99;
+        }
+        .emoji {
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+        /* Style for images */
+        img {
+            max-width: 100%;
+            height: auto; /* This maintains the aspect ratio */
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🧠 Welcome to Learn AIdvisor!</h1>
+    <p>This guide explains how to use Learn AIdvisor to make your online reading and learning more effective.</p>
+
+    <h2>How to Use Learn AIdvisor: The Workflow</h2>
+
+    <div class="step">
+        <h3>Step 1: Select Text on a Webpage</h3>
+        <p>Simply use your mouse to highlight a fragment of text (at least 20 characters) that you want to analyze.</p>
+        <img src="images/ss1.png" alt="User selecting text on a Wikipedia page.">
+    </div>
+
+    <div class="step">
+        <h3>Step 2: Get Your Learning Insights</h3>
+        <p>Click the Learn AIdvisor icon in your browser's toolbar. The popup will confirm that text has been selected. Click the <strong>"Get Learning Insights"</strong> button to start the analysis.</p>
+        <img src="images/ss2.png" alt="Popup showing the 'Get Learning Insights' button is active.">
+        <p>While the analysis is running, the extension will show a progress state.</p>
+        <img src="images/ss3.png" alt="Popup showing the assessment is in progress.">
+    </div>
+
+    <div class="step">
+        <h3>Step 3: The Familiarity Assessment</h3>
+        <p>The extension will present you with a couple of yes/no questions about key concepts found in the text. Your answers help personalize the analysis. Answering "Yes" tells the AIdvisor that you are already familiar with a concept, which reduces the final calculated effort score.</p>
+        <img src="images/ss4.png" alt="Familiarity assessment questions are displayed in the popup.">
+    </div>
+
+    <div class="step">
+        <h3>Step 4: Understand Your Effort Level</h3>
+        <p>After you submit your answers by clicking "See My Effort Level," Learn AIdvisor will show you the final **Attentional Effort Level**, represented by an emoticon:</p>
+        <ul>
+            <li><span class="emoji">🤯</span> <strong>HIGH:</strong> This text is complex and will require significant focus.</li>
+            <li><span class="emoji">🤔</span> <strong>MEDIUM:</strong> This text requires conscious thought but is manageable.</li>
+            <li><span class="emoji">😎</span> <strong>LOW:</strong> This text is easy to read and can be understood quickly.</li>
+        </ul>
+        <img src="images/ss5.png" alt="The final effort level result is displayed with an emoticon.">
+    </div>
+
+    <div class="step">
+        <h3>Step 5: Use the Learning Tools</h3>
+        <p>Based on the result, you will see one or two new buttons:</p>
+        <ul>
+            <li><strong>Optimize for Learning 🧠:</strong> (Appears for MEDIUM or HIGH effort). This rewrites the original text to be easier to read. The extension will show a progress screen while it works.</li>
+        </ul>
+        <img src="images/ss6.png" alt="Progress screen for optimizing text.">
+        <p>The final result is a restructured version of the text, using shorter sentences, lists, and bolding key terms.</p>
+        <img src="images/ss7.png" alt="The simplified text is displayed in the popup.">
+        <ul>
+            <li><strong>Generate Comprehension Test 📝:</strong> (Appears after optimization or for LOW effort). This creates a set of flashcard-style questions to test if you've truly understood the core concepts. The extension will show a progress screen while it works.</li>
+        </ul>
+        <img src="images/ss8.png" alt="Progress screen for generating the comprehension test.">
+        <h4>The Comprehension Test (Anki-Style)</h4>
+        <p>The comprehension test presents you with questions in a card format. </p>
+        <img src="images/ss9.png" alt="Comprehension test with a question and a 'Reveal Answer' button.">
+        <ol>
+            <li>Read the question and try to answer it in your head.</li>
+            <li>Click the <strong>"Reveal Answer"</strong> button.</li>
+            <li>Once the answer is shown, a horizontal slider will appear. Rate how easy it was for you to recall the answer, from "Easy" on the left to "Hard" on the right.</li>
+        </ol>
+        <img src="images/ss10.png" alt="Comprehension test with the answer revealed and a difficulty slider.">
+    </div>
+
+    <div class="step">
+        <h3>Step 6: Complete the Test</h3>
+        <p>Once you rate the final question, you'll see a completion message. Now you have a new option: <strong>"Generate Study Guide"</strong>. Click this button to create a final, personalized review sheet based on your performance.</p>
+        <img src="images/ss11.png" alt="The test completion screen, showing the 'Generate Study Guide' button.">
+    </div>
+
+    <div class="step">
+        <h3>Step 7: Review Your Personalized Study Guide</h3>
+        <p>The Study Guide provides a powerful, focused learning tool: a <strong>Glossary of Key Concepts</strong>. This glossary is intelligently generated to include only the terms from the text that you found challenging (either by answering "No" in the initial assessment or by rating a comprehension question as difficult). This helps you focus your study time on exactly what you need to learn.</p>
+        <img src="images/ss12.png" alt="The final Study Guide view, displaying a custom glossary of challenging concepts.">
+    </div>
+
+</body>
+</html>
