@@ -22,7 +22,7 @@ Learn AIdvisor is a Chrome extension that acts as a personal learning assistant.
 
 ## How It Works: The Workflow
 
-1.  **Select Text**: Highlight a piece of text (at least 20 characters) on any webpage.
+1.  **Select Text**: Highlight a piece of text (at least a paragraph) on any webpage.
 
 2.  **Familiarity Assessment**: Answer a few simple yes/no questions about key concepts found in the text.
 
