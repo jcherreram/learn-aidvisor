@@ -6,8 +6,6 @@ Of course. Here is a complete README.md file for your "Learn AIdvisor" project, 
 
 Learn AIdvisor is a Chrome extension that acts as a personal learning assistant. By leveraging the on-device power of Google's Gemini Nano, it analyzes selected text to calculate the reader's required **Attentional Effort (NEA)**, simplifies complex content, and generates personalized comprehension tests and study guides to make online learning more effective and efficient.
 
-!([https://i.imgur.com/gO0a9kS.png](https://i.imgur.com/gO0a9kS.png))
-
 ---
 
 ## Core Features
